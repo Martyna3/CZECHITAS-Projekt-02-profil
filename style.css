@@ -14,8 +14,90 @@ tlačítko facebook         #3b5998
 tlačítko twitter          #1da1f2
 */
 
-
 body {
   background-color: #bdc3c7;
+  color: lightgray;
 }
 
+.hlavicka {
+  width: 100%;
+  position: relative;
+  height: 200px;
+}
+
+.foto {
+  width: 300px;
+}
+
+.logo {
+  background-color: #b92e81;
+  border-radius: 50%;
+  position: relative;
+  bottom: 30px;
+  right: -210px;
+  box-shadow: 0 4px 8px 0 black;
+}
+
+.profil{
+  width: 300px;
+  background-color: #31363b;
+  box-shadow: 3px 3px rgb(142, 138, 138);
+}
+
+.jmeno {
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px 0px;
+}
+
+.obsah {
+  padding: 0px 25px 15px 25px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: lightgrey;
+}
+
+.odkazy{
+  list-style: none;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.portfolio,
+.facebook,
+.twitter {
+  border-top: 0.5px solid lightgray;
+  padding: 10px 0px;
+  text-align: center;
+}
+
+.facebook {
+  flex-basis: 50%;
+  border-right: 0.5px solid lightgray;
+}
+
+.twitter {
+  flex-basis: 50%;
+}
+
+.portfolio:hover {
+  background-color:  #e74c3c;
+}
+
+.facebook:hover {
+  background-color: #3b5998;
+}
+
+.twitter:hover{
+  background-color: #1da1f2;
+}
+
+.facetter {
+  display: flex;
+}
